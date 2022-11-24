@@ -1,0 +1,191 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIU Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="bi bi-x-square" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showmenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>No 1 University Of Gilgit Baltistan</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse,
+                 autem quia nemo magnam, quod <br> nihil, porro nulla sed incidunt recusandae
+                 </p>
+                 <a class="hero-btn" href="">Visit us to know more</a>
+        </div>
+
+    </section>
+    <!-- -----------Javascript toogle----------------- -->
+    <script>
+        var navlinks=document.getElementById("navlinks");
+
+        function showmenu(){
+            navlinks.style.right="0";
+        }
+
+        function hidemenu(){
+            navlinks.style.right="-200px";
+        }
+
+    </script>
+    <!-- -----------------coursee------------------ -->
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Lorem, ipsum dolor sit amet consecsequi aliquam inv corporis voluptatem quis perferendis?</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam repudiandae quis temporibus architecto corrupti impedit debitis explicabo. Veniam excepturi repudiandae illum reiciendis. Architecto nesciunt tempora id ab facere adipisci alias.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam repudiandae quis temporibus architecto corrupti impedit debitis explicabo. Veniam excepturi repudiandae illum reiciendis. Architecto nesciunt tempora id ab facere adipisci alias.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam repudiandae quis temporibus architecto corrupti impedit debitis explicabo. Veniam excepturi repudiandae illum reiciendis. Architecto nesciunt tempora id ab facere adipisci alias.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ------------Campus------------------ -->
+    <section class="campas">
+        <h1>Our Global Campus</h1>
+        <p>lorem, ipsum dolor sit amet consecsequi aliquam inv corporis voluptatem quis perferendis</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london.png" alt="">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="images/washington.png" alt="">
+                <div class="layer">
+                    <h3>Washington</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="images/newyork.png" alt="">
+                <div class="layer">
+                    <h3>New York</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ---------------Facilities------------------ -->
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>lorem, ipsum dolor sit amet consecsequi aliquam inv corporis voluptatem quis perferendis</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, veniam. Non architecto inventore corrupti ratione cupiditate nesciunt offiasperiores ratione tenetur unde et.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/basketball.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, veniam. Non architecto inventore unt officia, eaque maiores. Molestias, sint? Officiis, excepturi. Nihil asperiores ratione tenetur unde et.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" alt="">
+                <h3>Tasty And Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, veniam. Non architecto inventore corrupti ratione cupiditate nesciunt officia, eaque maiores. Molestias, sint? Officiis, excepturi. Nihil asperiores rde et.</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- ------------------Testimonials------------------- -->
+    <section class="testimonials">
+        <h1>What  Our Students Say</h1>
+        <p>lorem, ipsum dolor sit amet consecsequi aliquam inv corporis voluptatem quis perferendis</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images/user1.jpg" alt="">
+                <div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque minus obcaecati labore expedita, eaque saepe soluta. Dolorum delectus nam dolor labore expedita accusantium facilis nostrum doloremque? At.</p>
+                <h3>Saleena</h3>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                </div>
+                
+            </div>
+
+            <div class="testimonials-col">
+                <img src="images/user2.jpg" alt="">
+                <div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque minus obcaecati labore expedita hic delsoluta. Dolorum delectus nam dolor labore expedita accusantium facilis nostrum doloremque? At.</p>
+                <h3>Kashif</h3>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                </div>
+            </div>
+
+            
+        </div>
+
+    </section>
+    <!-- --------------------Call to Action---------------------------- -->
+    <section class="cta">
+        <h1>Enrol for our online courses <br> Anywhere from the World</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+
+    </section>
+    <!-- ------------------------Footer------------------------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum doloelit. Consectetur nesciunt minima harum saepe aperiam labore optio sit accusantium vel nihil voluptatum<br> earum, rem delectus, maiores dilo cumque placeat.</p>
+        <div class="icon">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-twitter"></i>
+
+        </div>
+        <p>Made  <i class="bi bi-heart-fill"></i> By Aly.com</p>
+
+    </section>
+    
+</body>
+</html>
